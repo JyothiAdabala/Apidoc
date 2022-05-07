@@ -1,3 +1,8 @@
+https://api421.herokuapp.com/competencyevaluations/{competencyevaluationid}
+
+### (this api is to delete competency evaluation form which is created by faculty in competency table row)
+
+
 1. https://api421.herokuapp.com/admin/student/getall/{batchname} 
 
     (api to display all students in database in a table as shown below.)
@@ -116,12 +121,8 @@
 17. https://api421.herokuapp.com/admin/speciality/update/{specialityname}/{specialityid}
 
     (api to update speciality)
-
-18. https://api421.herokuapp.com/competencyevaluations/{competencyevaluationid}
-
-    (api to delete competency evaluation)
     
-19. https://api421.herokuapp.com/admin/student/getbacthnames
+18. https://api421.herokuapp.com/admin/student/getbacthnames
 
     (api to display all batches)
     
@@ -138,7 +139,7 @@
         }
     ]
     
-20. https://api421.herokuapp.com/fdashboard/competencydetails/{speciality}
+19. https://api421.herokuapp.com/fdashboard/competencydetails/{speciality}
 
     (api to get all competencies names)
 
@@ -156,7 +157,7 @@
     }]
     }
 
-21. https://api421.herokuapp.com/studentdashboard/specialities
+20. https://api421.herokuapp.com/studentdashboard/specialities
 
     (api to get all specialities names)
 
@@ -173,7 +174,6 @@
     "SpecialityId ": 24
     }]
     }
-
 
 
 
