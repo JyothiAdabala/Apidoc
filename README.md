@@ -101,49 +101,61 @@ Response :
 
 14. https://api421.herokuapp.com/delete/{personid}
 
-(apis to edit details of admins and to delete admin on long press on particular row)
+    (apis to edit details of admins and to delete admin on long press on particular row)
 
 <img src="https://github.com/JyothiAdabala/Apidoc/blob/main/img/editadmin.png" width="500">
 
 15. https://api421.herokuapp.com/admin/addcsvfile
 
-(api to add bulk number of admins at a time to database using csv file.)
+    (api to add bulk number of admins at a time to database using csv file.)
 
-16. https://api421.herokuapp.com/fdashboard/competencydetails/{speciality}
+16. https://api421.herokuapp.com/admin/speciality/add/{specialityname}
 
-(api to get all competencies names)
+    (api to create a speciality)
+    
+17. https://api421.herokuapp.com/admin/speciality/update/{specialityname}/{specialityid}
 
-Response : 
+    (api to update speciality)
 
-{
-"details": [
-{
-"competencyname": "competency1",
-"competencyid": 4
-},
-{
-"competencyname": "competency2",
-"competencyid": 14
-}]
-}
+18. https://api421.herokuapp.com/competencyevaluations/{competencyevaluationid}
 
-17. https://api421.herokuapp.com/studentdashboard/specialities
+    (api to delete competency evaluation)
+    
+19. https://api421.herokuapp.com/fdashboard/competencydetails/{speciality}
 
-(api to get all specialities names)
+    (api to get all competencies names)
 
-Response : 
+    Response : 
 
-{
-"details": [
-{
-"specialityName": "surgeon",
-"SpecialityId ": 14
-},
-{
-"specialityName": "upperteeth",
-"SpecialityId ": 24
-}]
-}
+    {
+    "details": [
+    {
+    "competencyname": "competency1",
+    "competencyid": 4
+    },
+    {
+    "competencyname": "competency2",
+    "competencyid": 14
+    }]
+    }
+
+20. https://api421.herokuapp.com/studentdashboard/specialities
+
+    (api to get all specialities names)
+
+    Response : 
+
+    {
+    "details": [
+    {
+    "specialityName": "surgeon",
+    "SpecialityId ": 14
+    },
+    {
+    "specialityName": "upperteeth",
+    "SpecialityId ": 24
+    }]
+    }
 
 
 
