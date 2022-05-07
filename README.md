@@ -106,9 +106,39 @@ Response :
 
 (api to add bulk number of admins at a time to database using csv file.)
 
+16. https://api421.herokuapp.com/fdashboard/competencydetails/{speciality}
 
+(api to get all competencies names)
 
+Response : 
+{
+"details": [
+{
+"competencyname": "competency1",
+"competencyid": 4
+},
+{
+"competencyname": "competency2",
+"competencyid": 14
+}]
+}
 
+17. https://api421.herokuapp.com/studentdashboard/specialities
+
+(api to get all specialities names)
+
+Response : 
+{
+"details": [
+{
+"specialityName": "surgeon",
+"SpecialityId ": 14
+},
+{
+"specialityName": "upperteeth",
+"SpecialityId ": 24
+}]
+}
 
 
 
