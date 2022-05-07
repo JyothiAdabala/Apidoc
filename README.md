@@ -30,6 +30,23 @@
 
 (api to display all existing faculty in database)
 
+Response : 
+{
+"adminname": "",
+"adminmail": "",
+"speciality": "",
+"adminsdetails": [
+{
+"personid": 4,
+"firstname": "jyothi",
+"lastname": "adabala",
+"password": "welcome123",
+"phone": "9848935444",
+"email": "jyothiadabala321@gmail.com",
+"facultyid": "vdc1",
+"speciality": "surgeon"
+}]
+}
 <img src = "https://github.com/JyothiAdabala/Apidoc/blob/main/img/getfaculty.png" width="500">
 
 7. https://api421.herokuapp.com/admin/faculty/addcsvfile
@@ -53,6 +70,21 @@
 11. https://api421.herokuapp.com/admin/getall/{email}
 
 (api to display all other admins and details of present logged in admin)
+
+Response : 
+{
+"adminname": "babu gogineni",
+"adminmail": "babu@gmail.com",
+"adminsdetails": [
+{
+"person_id": 274,
+"first_name": "babu",
+"last_name": "gogineni",
+"password": "welcome123",
+"Phone": "9838955489",
+"Email": "babu@gmail.com"
+}]
+}
 
 <img src="https://github.com/JyothiAdabala/Apidoc/blob/main/img/getadmin.png" width="500">
 
