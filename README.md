@@ -31,6 +31,7 @@
 (api to display all existing faculty in database)
 
 Response : 
+
 {
 "adminname": "",
 "adminmail": "",
@@ -72,6 +73,7 @@ Response :
 (api to display all other admins and details of present logged in admin)
 
 Response : 
+
 {
 "adminname": "babu gogineni",
 "adminmail": "babu@gmail.com",
@@ -111,6 +113,7 @@ Response :
 (api to get all competencies names)
 
 Response : 
+
 {
 "details": [
 {
@@ -128,6 +131,7 @@ Response :
 (api to get all specialities names)
 
 Response : 
+
 {
 "details": [
 {
