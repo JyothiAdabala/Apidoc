@@ -48,6 +48,7 @@ Response :
 "speciality": "surgeon"
 }]
 }
+
 <img src = "https://github.com/JyothiAdabala/Apidoc/blob/main/img/getfaculty.png" width="500">
 
 7. https://api421.herokuapp.com/admin/faculty/addcsvfile
