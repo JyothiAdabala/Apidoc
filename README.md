@@ -34,6 +34,8 @@
 
 7. https://api421.herokuapp.com/admin/faculty/addcsvfile
 
+(api to add bulk number of faculty at a time to database using csv file.)
+
 8. https://api421.herokuapp.com/admin/faculty/insert
 
 (api to add faculty to database)
@@ -70,8 +72,7 @@
 
 15. https://api421.herokuapp.com/admin/addcsvfile
 
-
-
+(api to add bulk number of admins at a time to database using csv file.)
 
 
 
